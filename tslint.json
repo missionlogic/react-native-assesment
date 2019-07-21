@@ -1,0 +1,17 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-standard",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "interface-name": [false, "never-prefix"],
+    "no-console": [true, "log", "warn"],
+    "semicolon": true,
+    "prefer-const": [ true, "always" ],
+    "no-trailing-whitespace": true,
+    "quotemark": [true, "single"]
+  }
+}
